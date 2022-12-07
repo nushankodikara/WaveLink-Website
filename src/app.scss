@@ -1,0 +1,11 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
