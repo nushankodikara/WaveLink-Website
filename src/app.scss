@@ -1,11 +1,35 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,600&display=swap');
 
 * {
-    font-family: 'Poppins', sans-serif;
-    transition: 0.2s ease-in-out;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.2s ease-in-out;
 }
 
-html {
-    scroll-behavior: smooth;
+body {
+	margin: 0;
+
+	.page-content {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+}
+
+.container {
+	padding: 1rem 2rem;
+}
+
+.text-gray {
+	color: $text-gray-color;
+}
+
+hr {
+	border: none;
+	background-color: #f3f3f3;
+	height: 1px;
 }
