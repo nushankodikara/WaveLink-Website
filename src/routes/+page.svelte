@@ -148,10 +148,12 @@
 					state="loop"
 					colors="secondary:#32cccd,primary:#121331"
 				/>
-				<h3 class="card-title">Sports</h3>
-				<p class="card-content">
-					Rewriting the Messenger codebase for a faster, smaller, and simpler messaging app
-				</p>
+				<div>
+					<h3 class="card-title">Sports</h3>
+					<p class="card-content">
+						Sports: Offer products and services for sports facilities, equipment, and events.
+					</p>
+				</div>
 			</div>
 			<div class="col">
 				<lord-icon
@@ -160,8 +162,10 @@
 					state="loop"
 					colors="primary:#121331,secondary:#32cccd"
 				/>
-				<h3 class="card-title">Clothing</h3>
-				<p class="card-content">How Figma’s multiplayer technology works</p>
+				<div>
+					<h3 class="card-title">Clothing</h3>
+					<p class="card-content">Offer wholesale clothing, design, and manufacturing services.</p>
+				</div>
 			</div>
 			<div class="col">
 				<lord-icon
@@ -170,8 +174,10 @@
 					state="loop"
 					colors="primary:#121331,secondary:#32cccd"
 				/>
-				<h3 class="card-title">Electronics</h3>
-				<p class="card-content">Architecting a web app to “just work” offline</p>
+				<div>
+					<h3 class="card-title">Electronics</h3>
+					<p class="card-content">Offer technology solutions and products for businesses.</p>
+				</div>
 			</div>
 			<div class="col">
 				<lord-icon
@@ -180,8 +186,10 @@
 					state="loop"
 					colors="primary:#121331,secondary:#32cccd"
 				/>
-				<h3 class="card-title">Toys</h3>
-				<p class="card-content">Architecting a web app to “just work” offline</p>
+				<div>
+					<h3 class="card-title">Toys</h3>
+					<p class="card-content">Provide wholesale toy distribution and manufacturing services.</p>
+				</div>
 			</div>
 			<div class="col">
 				<lord-icon
@@ -190,8 +198,12 @@
 					state="loop"
 					colors="primary:#121331,secondary:#32cccd"
 				/>
-				<h3 class="card-title">Consumer Goods</h3>
-				<p class="card-content">Architecting a web app to “just work” offline</p>
+				<div>
+					<h3 class="card-title">Consumer Goods</h3>
+					<p class="card-content">
+						Offer wholesale distribution and manufacturing of household items and consumer goods.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -239,6 +251,16 @@
 				<h2>Step 3 : Approval</h2>
 				<p>Wait until we reveiw your request and send the approval to your email inbox</p>
 			</div>
+			<div class="smallcard">
+				<h2>Security :</h2>
+
+				<p>
+					At our online payment platform, security is our top priority. We use state-of-the-art
+					encryption technology to protect your personal and financial information, and we comply
+					with all industry standards for online security. You can feel confident that your
+					information is safe with us.
+				</p>
+			</div>
 		</div>
 	</div>
 
@@ -262,6 +284,7 @@
 				</div>
 				<div class="text">
 					<h2>Debit Cards & Credit Cards</h2>
+					<p>Make a payment anywhere in the world with any Visa and Mastercard.</p>
 				</div>
 			</div>
 			<div class="col">
@@ -270,6 +293,10 @@
 				</div>
 				<div class="text">
 					<h2>Crypto to Fiat</h2>
+					<p>
+						convert your digital assets into any currency of your choice to pay your bills,
+						shopping, or cashing out from cryptocurrency investments.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -442,6 +469,9 @@
 
 			.col {
 				flex: 1;
+				display: flex;
+				flex-direction: column;
+				gap: 1em;
 
 				lord-icon {
 					width: 4rem;
@@ -645,24 +675,36 @@
 				border-radius: 6px;
 				transition: box-shadow 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
 
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				gap: 1em;
+
 				lord-icon {
-					width: 4em;
-					height: 4em;
+					flex: 1;
+					width: 150px;
+					height: 150px;
 				}
 
-				h3 {
-					font-size: 1.5em;
-					font-weight: 600;
-					color: $text-color;
-					font-weight: 300;
-					text-transform: uppercase;
-					// display: none;
-				}
+				div {
+					flex: 4;
+					display: flex;
+					flex-direction: column;
 
-				p {
-					font-size: 1em;
-					font-weight: 200;
-					color: $text-color;
+					h3 {
+						font-size: 1.5em;
+						font-weight: 600;
+						color: $text-color;
+						font-weight: 300;
+						text-transform: uppercase;
+						// display: none;
+					}
+
+					p {
+						font-size: 1em;
+						font-weight: 200;
+						color: $text-color;
+					}
 				}
 			}
 
@@ -687,6 +729,10 @@
 			lord-icon {
 				width: 20em;
 				height: 20em;
+			}
+
+			h2 {
+				font-size: 3em;
 			}
 		}
 	}

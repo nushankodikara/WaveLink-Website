@@ -7,7 +7,7 @@
 
 <nav>
 	<div id="brand">
-		<a href="/">Wavelink</a>
+		<a href="/"><img src="/images/wavelink-logo.png" style="height: 80px;" alt="" /></a>
 		<div id="links">
 			<a href="/">Documentation</a>
 			<a href="/about">Blog</a>
@@ -82,7 +82,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 3em 2em 1em 2em;
+		padding: 1em 2em;
 		position: sticky;
 		top: 0;
 		z-index: 100;
@@ -92,7 +92,7 @@
 			display: flex;
 			flex-direction: row;
 			flex-wrap: nowrap;
-			align-items: baseline;
+			align-items: center;
 			justify-content: flex-start;
 			gap: 2em;
 
