@@ -7,7 +7,13 @@
 
 <nav>
 	<div id="brand">
-		<a href="/"><img src="/images/wavelink-logo.png" style="height: 80px;" alt="" /></a>
+		<a id="icon" href="/"
+			><img src="/images/icononly_transparent_nobuffer.png" style="height: 50px;" alt="" />
+			<div>
+				<h2>WAVE-LINK</h2>
+				<small>Global Payment Processing</small>
+			</div></a
+		>
 		<div id="links">
 			<a href="/">Documentation</a>
 			<a href="/about">Blog</a>
@@ -101,6 +107,30 @@
 				font-weight: 400;
 				color: $text-color;
 				text-decoration: none;
+			}
+
+			#icon {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				align-items: center;
+				justify-content: space-around;
+				gap: 0.5em;
+
+				div {
+					display: flex;
+					flex-direction: column;
+					flex-wrap: nowrap;
+					align-items: flex-start;
+					h2 {
+						font-size: 1em;
+						margin: 0;
+						color: #0175bb;
+					}
+					small {
+						font-size: 0.4em;
+					}
+				}
 			}
 
 			#links {

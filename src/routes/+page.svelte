@@ -137,8 +137,99 @@
 		</div>
 	</div> -->
 
+	<!-- Google Reviews Section -->
+	<div class="google h-full">
+		<h2>Google Reviews</h2>
+		<div class="row">
+			<div class="col">
+				<div>
+					<img src="/images/user.png" alt="user" />
+					<h3 class="card-title">User Name</h3>
+				</div>
+				<div class="stars">
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+				</div>
+				<p class="card-content">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque autem voluptates ducimus
+					ipsum! Magni
+				</p>
+			</div>
+			<div class="col">
+				<div>
+					<img src="/images/user.png" alt="user" />
+					<h3 class="card-title">User Name</h3>
+				</div>
+				<div class="stars">
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+				</div>
+				<p class="card-content">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque autem voluptates ducimus
+					ipsum! Magni
+				</p>
+			</div>
+			<div class="col">
+				<div>
+					<img src="/images/user.png" alt="user" />
+					<h3 class="card-title">User Name</h3>
+				</div>
+				<div class="stars">
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+				</div>
+				<p class="card-content">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque autem voluptates ducimus
+					ipsum! Magni
+				</p>
+			</div>
+			<div class="col">
+				<div>
+					<img src="/images/user.png" alt="user" />
+					<h3 class="card-title">User Name</h3>
+				</div>
+				<div class="stars">
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+				</div>
+				<p class="card-content">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque autem voluptates ducimus
+					ipsum! Magni
+				</p>
+			</div>
+			<div class="col">
+				<div>
+					<img src="/images/user.png" alt="user" />
+					<h3 class="card-title">User Name</h3>
+				</div>
+				<div class="stars">
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+					<img src="/images/star.png" alt="rating" />
+				</div>
+				<p class="card-content">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque autem voluptates ducimus
+					ipsum! Magni
+				</p>
+			</div>
+		</div>
+	</div>
 	<!-- Cards Section -->
-	<div class="cards h-full">
+	<!-- <div class="cards h-full">
 		<h2>Business Categories</h2>
 		<div class="row">
 			<div class="col">
@@ -206,11 +297,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Intergration Section -->
 	<div class="intergration h-full">
-		<div class="col">
+		<div class="col" style="display: flex; flex-direction:row-reverse;  ">
 			<lord-icon
 				src="https://cdn.lordicon.com/rgyftmhc.json"
 				trigger="loop"
@@ -236,6 +327,14 @@
 					Create an account from us or use your own bank account Run your business in any part of
 					the world in few simple clicks Operate easily for any industry
 				</p>
+				<hr />
+				<h2>Security</h2>
+				<p>
+					At our online payment platform, security is our top priority. We use state-of-the-art
+					encryption technology to protect your personal and financial information, and we comply
+					with all industry standards for online security. You can feel confident that your
+					information is safe with us.
+				</p>
 			</div>
 		</div>
 		<div class="col">
@@ -250,16 +349,6 @@
 			<div class="smallcard">
 				<h2>Step 3 : Approval</h2>
 				<p>Wait until we reveiw your request and send the approval to your email inbox</p>
-			</div>
-			<div class="smallcard">
-				<h2>Security :</h2>
-
-				<p>
-					At our online payment platform, security is our top priority. We use state-of-the-art
-					encryption technology to protect your personal and financial information, and we comply
-					with all industry standards for online security. You can feel confident that your
-					information is safe with us.
-				</p>
 			</div>
 		</div>
 	</div>
@@ -639,6 +728,93 @@
 		}
 	}
 
+	.google {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
+		align-items: center;
+		justify-content: flex-start;
+		width: 75vw;
+
+		h2 {
+			font-size: 5vw;
+			font-weight: 600;
+			color: $text-color;
+		}
+		.row {
+			display: flex;
+			flex-direction: row;
+			gap: 2em;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-content: space-around;
+			align-items: stretch;
+			align-content: flex-start;
+
+			.col {
+				flex: 1;
+				min-width: 16em;
+				background-color: white;
+				padding: 2em;
+				border-radius: 1em;
+				border-color: rgb(255, 255, 255);
+				box-shadow: rgb(0 0 0 / 6%) 8px 26px 92px;
+				background-color: rgb(255, 255, 255);
+				border-radius: 6px;
+				transition: box-shadow 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+
+				display: flex;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				gap: 1em;
+
+				img {
+					width: 100px;
+					height: 100px;
+				}
+
+				div {
+					display: flex;
+					flex-direction: row;
+					gap: 2em;
+
+					h3 {
+						font-size: 1.5em;
+						font-weight: 600;
+						color: $text-color;
+						font-weight: 300;
+						text-transform: uppercase;
+						// display: none;
+					}
+
+					p {
+						font-size: 1em;
+						font-weight: 200;
+						color: $text-color;
+					}
+				}
+
+				.stars {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-evenly;
+					max-width: 100px;
+					gap: 0;
+
+					img {
+						width: 20px;
+						height: 20px;
+					}
+				}
+			}
+
+			.col:hover {
+				box-shadow: rgb(0 0 0 / 11%) 8px 26px 92px;
+			}
+		}
+	}
+
 	.cards {
 		display: flex;
 		flex-direction: column;
@@ -715,16 +891,34 @@
 	}
 
 	.intergration {
+		background-image: url('/images/pattern 1.jpg');
+		background-position: center;
+		background-size: cover;
+
 		margin-top: 8em;
-		display: flex;
-		flex-direction: row;
-		gap: 2em;
-		width: 75vw;
 		justify-content: space-evenly;
 		align-items: center;
 		align-content: center;
+		max-width: 900px;
+
+		flex: 1;
+		min-width: 16em;
+		background-color: white;
+		padding: 2em;
+		border-radius: 1em;
+		border-color: rgb(255, 255, 255);
+		box-shadow: rgb(0 0 0 / 6%) 8px 26px 92px;
+		background-color: rgb(255, 255, 255);
+		border-radius: 6px;
+		transition: box-shadow 0.2s ease-out 0s, background-color 0.2s ease-out 0s;
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		gap: 1em;
 
 		.col {
+			flex: 1;
 			width: 80%;
 			lord-icon {
 				width: 20em;
@@ -735,6 +929,10 @@
 				font-size: 3em;
 			}
 		}
+	}
+
+	.intergration:hover {
+		box-shadow: rgb(0 0 0 / 11%) 8px 26px 92px;
 	}
 
 	.easytouse {
@@ -922,6 +1120,28 @@
 				.col:nth-child(2) {
 					.code-window {
 						width: 80vw;
+					}
+				}
+			}
+		}
+
+		.google {
+			h2 {
+				font-size: 2em;
+			}
+			.row {
+				flex-direction: column;
+				align-content: center;
+				flex-wrap: wrap;
+				align-items: stretch;
+
+				.col {
+					text-align: center;
+					align-items: center;
+					div {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
 					}
 				}
 			}
