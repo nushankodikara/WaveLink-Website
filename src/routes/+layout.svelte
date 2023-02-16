@@ -28,7 +28,7 @@
 <br /><br />
 <hr />
 <footer>
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col">
 			<img src="/gif/cheque.gif" alt="" />
 		</div>
@@ -54,7 +54,7 @@
 				<a href="#" class="footer-link">Contact Us</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="row" style="align-items: center;">
 		<div class="col">
 			<p class="footer-copyright-text">&#xa9; 2023 Wavelink. All rights reserved.</p>
@@ -181,6 +181,7 @@
 			justify-content: space-between;
 			align-items: flex-start;
 			margin-bottom: 2em;
+			gap: 2em;
 
 			.col {
 				flex: 1;
@@ -188,6 +189,10 @@
 				flex-direction: column;
 				justify-content: flex-start;
 				align-items: flex-start;
+
+				p {
+					white-space: nowrap;
+				}
 
 				img {
 					width: 60%;

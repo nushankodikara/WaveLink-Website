@@ -302,15 +302,10 @@
 	<!-- Intergration Section -->
 	<div class="intergration h-full">
 		<div class="col" style="display: flex; flex-direction:row-reverse;  ">
-			<lord-icon
-				src="https://cdn.lordicon.com/rgyftmhc.json"
-				trigger="loop"
-				state="loop"
-				colors="primary:#121331,secondary:#32cccd"
-			/>
+			<img src="/gif/exchange.gif" alt="" />
 		</div>
 		<div class="col">
-			<h2>Currency Exchange free for processing</h2>
+			<h2>Avoid Extra Fees for Currency Exchange</h2>
 			<p>
 				<strong> Avoid </strong> high currency exchange conversion rates with Wavelink. No exchange fee
 				during processing
@@ -920,9 +915,11 @@
 		.col {
 			flex: 1;
 			width: 80%;
-			lord-icon {
+			img {
 				width: 20em;
 				height: 20em;
+				border-radius: 50%;
+				filter: brightness(0.977);
 			}
 
 			h2 {
@@ -1165,7 +1162,9 @@
 
 			.col {
 				width: 80%;
-				lord-icon {
+				flex-direction: column;
+				align-items: center;
+				img {
 					width: 12em;
 					height: 12em;
 				}
