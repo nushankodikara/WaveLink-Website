@@ -15,12 +15,12 @@
 			</div></a
 		>
 		<div id="links">
-			<a href="/">Documentation</a>
-			<a href="/about">Blog</a>
+			<a href="#">Documentation</a>
+			<a href="#">Blog</a>
 		</div>
 	</div>
 	<div id="cta">
-		<a href="#" class="btn">Create an Account</a>
+		<a href="/register" class="btn">Create an Account</a>
 	</div>
 </nav>
 

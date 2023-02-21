@@ -340,6 +340,7 @@
 			<div class="smallcard">
 				<h2>Step 2 : Fill the Form</h2>
 				<p>Fill up the sign up form using your real details and mobile numbers which are in use</p>
+				<a href="/register">Create an Account</a>
 			</div>
 			<div class="smallcard">
 				<h2>Step 3 : Approval</h2>
@@ -396,7 +397,7 @@
 			International Rates Will be at <strong>5%</strong> <br /> Domestic Rates Will Start From
 			<strong>2.5%</strong>
 		</p>
-		<button>Create an Account</button>
+		<a href="/register">Create an Account</a>
 	</div>
 </div>
 
@@ -952,6 +953,26 @@
 				p {
 					color: $text-gray-color;
 				}
+
+				a {
+					background-color: $primary-color;
+					color: white;
+					font-size: calc(16px);
+					line-height: 20px;
+					padding: 10px 14px;
+					font-weight: 700;
+					border-radius: 12px;
+					letter-spacing: -0.02em;
+					border: 0px;
+					transition: background-color 0.2s ease-out 0s;
+					display: inline-block;
+					text-decoration: none;
+			white-space: nowrap;
+				}
+
+				a:hover {
+					background-color: $secondary-color;
+				}
 			}
 		}
 	}
@@ -1042,7 +1063,7 @@
 			text-align: center;
 		}
 
-		button {
+		a {
 			background-color: $primary-color;
 			color: white;
 			font-size: calc(16px);
@@ -1054,9 +1075,11 @@
 			border: 0px;
 			transition: background-color 0.2s ease-out 0s;
 			display: inline-block;
+			text-decoration: none;
+			white-space: nowrap;
 		}
 
-		button:hover {
+		a:hover {
 			background-color: $secondary-color;
 		}
 	}
