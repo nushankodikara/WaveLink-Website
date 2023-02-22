@@ -23,14 +23,14 @@
 		<div class="card {(showall == 1 || card == 1)? '' : 'hide' }" >
 			<h2>How would you like to accept payments with Euro Exim Bank?</h2>
 			<div class="radioButton">
-				<input type="radio" name="paymenttype" id="individal" value="Individual" />
+				<input type="radio" name="Payment Type" id="individal" value="Individual" />
 				<div>
 					<h2>As an individal</h2>
 					<h3>For freelanceres, sole traders and unregistered business</h3>
 				</div>
 			</div>
 			<div class="radioButton">
-				<input type="radio" name="paymenttype" id="business" value="Business" />
+				<input type="radio" name="Payment Type" id="business" value="Business" />
 				<div>
 					<h2>As a registered business, non-profit or NGO</h2>
 					<h3>Your Business is registered and you have a Business Bank Account</h3>
@@ -50,40 +50,40 @@
 			<div class="row">
 				<div class="col">
 					<label for="fullname">Your Full Name</label>
-					<input type="text" name="fullname" id="fullname" required/>
+					<input type="text" name="Full Name" id="fullname" required/>
 				</div>
 				<div class="col">
 					<label for="email">Your Email Address</label>
-					<input type="email" name="email" id="email" required/>
+					<input type="email" name="Email" id="email" required/>
 				</div>
 			</div>
 			<!-- Country and State -->
 			<div class="row">
 				<div class="col">
 					<label for="country">What country are you from?</label>
-					<input type="text" name="country" id="country" required/>
+					<input type="text" name="Country" id="country" required/>
 				</div>
 				<div class="col">
 					<label for="state">What state are you based on?</label>
-					<input type="text" name="state" id="state" required/>
+					<input type="text" name="State" id="state" required/>
 				</div>
 			</div>
 			<!-- City and pin/zip code -->
 			<div class="row">
 				<div class="col">
 					<label for="city">What city are you based on?</label>
-					<input type="text" name="city" id="city" required/>
+					<input type="text" name="City" id="city" required/>
 				</div>
 				<div class="col">
 					<label for="zipcode">What is your PIN / ZIP code?</label>
-					<input type="text" name="zipcode" id="zipcode" required/>
+					<input type="text" name="ZIP Code" id="zipcode" required/>
 				</div>
 			</div>
 			<!-- Contact Number -->
 			<div class="row">
 				<div class="col">
 					<label for="contact">What is your contact number?</label>
-					<input type="text" name="contact" id="contact" required/>
+					<input type="text" name="Contact Number" id="contact" required/>
 				</div>
 			</div>
             {#if showall == 0}
@@ -100,22 +100,22 @@
 			<div class="row">
 				<div class="col">
 					<label for="businessname">Registered business name</label>
-					<input type="text" name="businessname" id="businessname" required/>
+					<input type="text" name="Business Name" id="businessname" required/>
 				</div>
 				<div class="col">
 					<label for="registeredaddress">Registered address</label>
-					<input type="text" name="registeredaddress" id="registeredaddress" required/>
+					<input type="text" name="Registered Address" id="registeredaddress" required/>
 				</div>
 			</div>
 			<!-- Business Address and Website URL -->
 			<div class="row">
 				<div class="col">
 					<label for="businessaddress">Business address</label>
-					<input type="text" name="businessaddress" id="businessaddress" required/>
+					<input type="text" name="Business Address" id="businessaddress" required/>
 				</div>
 				<div class="col">
 					<label for="websiteurl">Website URL</label>
-					<input type="text" name="websiteurl" id="websiteurl" required/>
+					<input type="text" name="Website URL" id="websiteurl" required/>
 				</div>
 			</div>
 			{#if showall == 0}
@@ -132,34 +132,34 @@
         <div class="row">
             <div class="col">
                 <label for="businessdescription">Business description</label>
-                <textarea name="businessdescription" id="businessdescription" cols="60" rows="5" required></textarea>
+                <textarea name="Business Description" id="businessdescription" cols="60" rows="5" required></textarea>
             </div>
         </div>
 
         <h2>What's Your role at this company?</h2>
         <div class="radioButton">
-            <input type="radio" name="jobrole" id="administrator" value="Company Administrator / Senior Manager"/>
+            <input type="radio" name="Job Role" id="administrator" value="Company Administrator / Senior Manager"/>
             <div>
                 <h2>Company Administrator / Senior Manager</h2>
             </div>
         </div>
         <!-- Employee / Contractor -->
         <div class="radioButton">
-            <input type="radio" name="jobrole" id="employee" value="Employee / Contractor"/>
+            <input type="radio" name="Job Role" id="employee" value="Employee / Contractor"/>
             <div>
                 <h2>Employee / Contractor</h2>
             </div>
         </div>
         <!-- Director / Owner -->
         <div class="radioButton">
-            <input type="radio" name="jobrole" id="director" value="Director / Owner"/>
+            <input type="radio" name="Job Role" id="director" value="Director / Owner"/>
             <div>
                 <h2>Director / Owner</h2>
             </div>
         </div>
         <!-- Other -->
         <div class="radioButton">
-            <input type="radio" name="jobrole" id="other" value="Other"/>
+            <input type="radio" name="Job Role" id="other" value="Other"/>
             <div>
                 <h2>Other</h2>
             </div>
