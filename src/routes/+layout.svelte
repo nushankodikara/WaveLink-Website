@@ -15,8 +15,8 @@
 			</div></a
 		>
 		<div id="links">
-			<a href="#">Documentation</a>
-			<a href="#">Blog</a>
+			<!-- <a href="#">Documentation</a>
+			<a href="#">Blog</a> -->
 		</div>
 	</div>
 	<div id="cta">
@@ -61,11 +61,8 @@
 		</div>
 		<div class="col">
 			<div class="footer-social-icons">
-				<a href="#" class="social-icon">
+				<a href="https://www.facebook.com/wavelinkpay" class="social-icon">
 					<i class="fab fa-facebook-f" />
-				</a>
-				<a href="#" class="social-icon">
-					<i class="fab fa-instagram" />
 				</a>
 				<a href="#" class="social-icon">
 					<i class="fab fa-linkedin-in" />
