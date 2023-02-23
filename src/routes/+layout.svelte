@@ -153,7 +153,7 @@
 				color: white;
 				text-decoration: none;
 				padding: 0.5rem 1rem;
-				background-color: $text-color;
+				background-color: $primary-color;
 				border-radius: 0.5rem;
 			}
 

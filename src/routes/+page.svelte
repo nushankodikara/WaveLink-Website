@@ -301,7 +301,7 @@
 
 	<!-- Intergration Section -->
 	<div class="intergration h-full">
-		<div class="col" style="display: flex; flex-direction:row-reverse;  ">
+		<div class="col" style="">
 			<img src="/gif/exchange.gif" alt="" />
 		</div>
 		<div class="col">
@@ -449,9 +449,10 @@
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: center;
-		height: 100vh;
+		height: 80vh;
 		width: 75vw;
 		gap: 2em;
+		margin-bottom: 10em;
 
 		.hero-left {
 			flex: 1;
@@ -480,7 +481,7 @@
 
 				.input {
 					border-radius: 0.5rem 0 0 0.5rem;
-					border: 1px solid $secondary-color;
+					border: 1px solid $primary-color;
 					border-right: none;
 					box-sizing: border-box;
 					padding: 0.5rem 1rem;
@@ -492,21 +493,21 @@
 
 				.button {
 					border-radius: 0 0.5rem 0.5rem 0;
-					border: 1px solid $secondary-color;
+					border: 1px solid $primary-color;
 					border-left: none;
 					padding: 0.5rem 1rem;
 					font-size: 1rem;
 					color: $text-color;
-					background-color: $secondary-color;
+					background-color: $primary-color;
 					width: 100%;
 				}
 
 				.button:hover {
-					background-color: $tertiary-color;
+					background-color: $secondary-color;
 				}
 
 				.button:active {
-					background-color: $tertiary-color;
+					background-color: $secondary-color;
 				}
 
 				.button:focus {
@@ -561,6 +562,14 @@
 				lord-icon {
 					width: 4rem;
 					height: 4rem;
+				}
+
+				h2 {
+					margin: 0;
+				}
+
+				p {
+					margin: 0 0 1em 0;
 				}
 			}
 		}
@@ -927,6 +936,11 @@
 				font-size: 3em;
 			}
 		}
+
+		.col:nth-child(1){
+			display: flex;
+			flex-direction: row-reverse;
+		}
 	}
 
 	.intergration:hover {
@@ -1093,6 +1107,8 @@
 			gap: 2em;
 			height: auto;
 			padding-top: 2em;
+			margin-bottom: 3em;
+			text-align: center;
 
 			.hero-left,
 			.hero-right {
@@ -1119,6 +1135,7 @@
 		}
 
 		.featured {
+			text-align: center;
 			.row {
 				flex-direction: column;
 				flex-wrap: nowrap;
@@ -1126,6 +1143,9 @@
 				justify-content: flex-start;
 				align-items: stretch;
 				margin-top: 4em;
+				.col {
+					align-items: center;
+				}
 			}
 		}
 
@@ -1182,6 +1202,7 @@
 			align-content: center;
 			align-items: center;
 			justify-content: flex-start;
+			text-align: center;
 
 			.col {
 				width: 80%;
@@ -1192,6 +1213,10 @@
 					height: 12em;
 				}
 			}
+
+			.col:nth-child(1) {
+				flex-direction: column;
+			}
 		}
 
 		.easytouse {
@@ -1200,6 +1225,7 @@
 			align-content: center;
 			justify-content: center;
 			align-items: center;
+			text-align: center;
 
 			.col {
 				.card {
