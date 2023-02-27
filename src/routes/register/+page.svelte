@@ -300,6 +300,11 @@
 				button:hover {
 					background-color: $primary-color;
 				}
+
+				button[disabled]:hover {
+					background-color: #ccc;
+					cursor: not-allowed;
+				}
 			}
 		}
 	}
