@@ -23,6 +23,8 @@
 	<title>Wave-Link | Register</title>
 </svelte:head>
 
+<br /><br /><br />
+
 <form action="https://submit-form.com/gqyflXzr">
 	<div class="card {showall == 1 || card == 1 ? '' : 'hide'}">
 		<h2>How would you like to accept payments with Euro Exim Bank?</h2>

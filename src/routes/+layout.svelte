@@ -33,7 +33,7 @@
 </svelte:head>
 
 <nav
-	class="flex flex-col md:flex-row md:justify-around items-center py-4 fixed w-full bg-white z-50"
+	class="flex flex-col md:flex-row md:justify-around items-center py-4 fixed w-full bg-white z-50 gap-2"
 >
 	<div>
 		<a id="icon" href="/" class="flex flex-row gap-4"
