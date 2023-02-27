@@ -138,7 +138,7 @@
 	</div> -->
 
 	<!-- Google Reviews Section -->
-	<div class="google h-full">
+	<!-- <div class="google h-full">
 		<h2>Google Reviews</h2>
 		<div class="row">
 			<div class="col">
@@ -227,7 +227,8 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
+
 	<!-- Cards Section -->
 	<!-- <div class="cards h-full">
 		<h2>Business Categories</h2>
@@ -937,7 +938,7 @@
 			}
 		}
 
-		.col:nth-child(1){
+		.col:nth-child(1) {
 			display: flex;
 			flex-direction: row-reverse;
 		}
@@ -981,7 +982,7 @@
 					transition: background-color 0.2s ease-out 0s;
 					display: inline-block;
 					text-decoration: none;
-			white-space: nowrap;
+					white-space: nowrap;
 				}
 
 				a:hover {
