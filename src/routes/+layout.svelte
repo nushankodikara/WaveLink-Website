@@ -5,6 +5,35 @@
 	import '../app.scss';
 </script>
 
+<svelte:head>
+	<!-- Primary Meta Tags -->
+	<meta name="title" content="Wave-Link | The Key To A Universe Of Possibilities" />
+	<meta
+		name="description"
+		content="With Wavelink, you can easily make international payments, receive funds, manage digital operations, and access capital, opening up a world of possibilities."
+	/>
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://wavelinkpay.com/" />
+	<meta property="og:title" content="Wave-Link | The Key To A Universe Of Possibilities" />
+	<meta
+		property="og:description"
+		content="With Wavelink, you can easily make international payments, receive funds, manage digital operations, and access capital, opening up a world of possibilities."
+	/>
+	<meta property="og:image" content="/metaImage.png" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://wavelinkpay.com/" />
+	<meta property="twitter:title" content="Wave-Link | The Key To A Universe Of Possibilities" />
+	<meta
+		property="twitter:description"
+		content="With Wavelink, you can easily make international payments, receive funds, manage digital operations, and access capital, opening up a world of possibilities."
+	/>
+	<meta property="twitter:image" content="/metaImage.png" />
+</svelte:head>
+
 <nav>
 	<div id="brand">
 		<a id="icon" href="/"
