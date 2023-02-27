@@ -2,6 +2,10 @@
 	let code001 = `const [currentUser] = useCurrentUser()\nconst [project] = useQuery({\n\tproject: { name: 'Build the thing' }\n})\nconst [transact, errors, syncing] = useTransact()\nconst [ids, dbAfter, dbBefore] = transact([{\n\ttodo: {\n\t\ttitle: 'Write more code',\n\t\tassignedTo: currentUser,\n\t\tproject\n\t}\n}])`;
 </script>
 
+<svelte:head>
+	<title>Wave-Link | Home</title>
+</svelte:head>
+
 <div class="page-content">
 	<!-- Hero Section -->
 	<div class="hero h-full">
