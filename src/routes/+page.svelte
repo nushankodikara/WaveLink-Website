@@ -3,6 +3,10 @@
 	import FeatureCard from '$lib/components/feature-card.svelte';
 </script>
 
+<svelte:head>
+	<title>Wave-Link | Home</title>
+</svelte:head>
+
 <div class="flex flex-col items-center gap-32 p-4 pt-48">
 	<!-- Hero -->
 	<div class="w-full h-full flex flex-col-reverse md:flex-row justify-end p-4">
