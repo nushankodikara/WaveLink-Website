@@ -64,12 +64,12 @@
 				<a href="https://www.facebook.com/wavelinkpay" class="social-icon">
 					<i class="fab fa-facebook-f" />
 				</a>
-				<a href="#" class="social-icon">
+				<a href="https://www.linkedin.com/company/wave-eeb/" class="social-icon">
 					<i class="fab fa-linkedin-in" />
 				</a>
-				<a href="#" class="social-icon">
+				<!-- <a href="#" class="social-icon">
 					<i class="fab fa-twitter" />
-				</a>
+				</a> -->
 			</div>
 		</div>
 		<div class="col" />
@@ -77,10 +77,6 @@
 </footer>
 
 <style lang="scss">
-	.fill-black {
-		fill: black;
-	}
-
 	nav {
 		display: flex;
 		justify-content: space-between;
