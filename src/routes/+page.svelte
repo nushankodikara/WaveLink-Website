@@ -14,7 +14,7 @@
 			class="flex flex-col w-full md:w-1/2 md:max-w-md gap-16 p-8 md:p-0 text-center md:text-left items-center md:items-start"
 		>
 			<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold">
-				The Key To A Universe Of Possibilities
+				The Key To A World Of Possibilities
 			</h2>
 			<p class="md:text-justify">
 				Your Wavelink account is the key that opens a world of possibilities. Wavelink connects your
