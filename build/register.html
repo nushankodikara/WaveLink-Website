@@ -19,10 +19,40 @@
 			referrerpolicy="no-referrer"
 		/>
 		<meta name="viewport" content="width=device-width" />
+		<!-- Facebook Pixel Code -->
+		<script>
+			!(function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s);
+			})(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '627150476097430');
+			fbq('track', 'PageView');
+		</script>
+		<noscript>
+			<img
+				height="1"
+				width="1"
+				src="https://www.facebook.com/tr?id=627150476097430&ev=PageView
+&noscript=1"
+			/>
+		</noscript>
+		<!-- End Facebook Pixel Code -->
 		<meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/_layout-4d5cc20d.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/_page-e72cb98e.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-c2964d32.js">
+		<link rel="modulepreload" href="./_app/immutable/start-5561a871.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-705e6966.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-7caecb99.js">
 		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-f54f3c56.js">
@@ -118,13 +148,13 @@
 
 
 		<script type="module" data-sveltekit-hydrate="ni7nkm">
-			import { start } from "./_app/immutable/start-c2964d32.js";
+			import { start } from "./_app/immutable/start-5561a871.js";
 
 			start({
 				assets: "",
 				env: {},
 				target: document.querySelector('[data-sveltekit-hydrate="ni7nkm"]').parentNode,
-				version: "1677508620847",
+				version: "1682556403756",
 				hydrate: {
 					node_ids: [0, 4],
 					data: [null,null],

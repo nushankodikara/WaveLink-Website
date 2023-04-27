@@ -47,7 +47,7 @@
 		<FeatureCard
 			src="https://cdn.lordicon.com/itmmouju.json"
 			title="Versatile"
-			description="Pay your suppliers from any currency"
+			description="Receive payments from your customers in any currency"
 		/>
 		<FeatureCard
 			src="https://cdn.lordicon.com/cjieiyzp.json"
