@@ -52,7 +52,11 @@
 <slot />
 
 <footer class="flex flex-row w-full gap-4 justify-center py-12 bg-white">
-	<p class=" font-light">&#xa9; 2023 Wavelink. All rights reserved.</p>
+	<p class=" font-light">
+		&#xa9; 2023 Wavelink. All rights reserved. <span class="text-gray-400"
+			>Powered by Euro Exim Bank Ltd</span
+		>
+	</p>
 	<div class="flex flex-row gap-4">
 		<a href="https://www.facebook.com/wavelinkpay">
 			<i class="fab fa-facebook-f hover:text-sky-600" />

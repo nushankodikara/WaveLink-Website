@@ -23,9 +23,11 @@
 					managing your digital business, or accessing capital.
 				</p>
 				<p class="">
-					Developed by Euro Exim Bank, a trusted name in the international trade finance industry,
-					our platform combines state-of-the-art technology with years of expertise to provide you
-					with a seamless and secure payment experience.
+					Developed by <a href="https://www.euroeximbank.com" class="text-blue-400"
+						>Euro Exim Bank</a
+					>, a trusted name in the international trade finance industry, our platform combines
+					state-of-the-art technology with years of expertise to provide you with a seamless and
+					secure payment experience.
 				</p>
 			</di>
 			<a
