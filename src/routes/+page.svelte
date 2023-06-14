@@ -16,11 +16,18 @@
 			<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold">
 				The Key To A World Of Possibilities
 			</h2>
-			<p class="md:text-justify">
-				Your Wavelink account is the key that opens a world of possibilities. Wavelink connects your
-				business to the world, whether it’s making international payments, receiving funds, managing
-				your digital business, or accessing capital.
-			</p>
+			<di class="md:text-justify flex flex-col gap-4">
+				<p class="">
+					Your Wavelink account is the key that opens a world of possibilities. Wavelink connects
+					your business to the world, whether it’s making international payments, receiving funds,
+					managing your digital business, or accessing capital.
+				</p>
+				<p class="">
+					Developed by Euro Exim Bank, a trusted name in the international trade finance industry,
+					our platform combines state-of-the-art technology with years of expertise to provide you
+					with a seamless and secure payment experience.
+				</p>
+			</di>
 			<a
 				href="/register"
 				class="py-2 px-4 rounded-lg bg-sky-500 hover:bg-sky-400 text-white w-full md:w-1/2 text-center"
