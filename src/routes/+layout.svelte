@@ -53,7 +53,7 @@
 
 <footer class="flex flex-row w-full gap-4 justify-center py-12 bg-white">
 	<p class=" font-light">
-		&#xa9; 2023 Wavelink. All rights reserved. <span class="text-gray-400"
+		&#xa9; 2024 Wavelink. All rights reserved. <span class="text-gray-400"
 			>Powered by Euro Exim Bank Ltd</span
 		>
 	</p>
