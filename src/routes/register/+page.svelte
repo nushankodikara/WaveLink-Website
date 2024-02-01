@@ -1,5 +1,5 @@
 <script>
-	let card = 1;
+	let card = 0;
 	let showall = 0;
 
 	let nextCard = () => {
@@ -26,6 +26,44 @@
 <br /><br /><br />
 
 <form action="https://submit-form.com/gqyflXzr">
+	<div class="card {showall == 1 || card == 0 ? '' : 'hide'}">
+		<h2>Please Select Your Operating Country</h2>
+		<div class="radioButton">
+			<input type="radio" name="Country" id="individal" value="US" />
+			<div>
+				<h2>United States</h2>
+				<!-- <h3>For freelanceres, sole traders and unregistered business</h3> -->
+			</div>
+		</div>
+		<div class="radioButton">
+			<input type="radio" name="Country" id="business" value="Business" />
+			<div>
+				<h2>Europe</h2>
+				<!-- <h3>Your Business is registered and you have a Business Bank Account</h3> -->
+			</div>
+		</div>
+		<div class="radioButton">
+			<input type="radio" name="Country" id="business" value="Business" />
+			<div>
+				<h2>Africa</h2>
+				<!-- <h3>Your Business is registered and you have a Business Bank Account</h3> -->
+			</div>
+		</div>
+		<div class="radioButton">
+			<input type="radio" name="Country" id="business" value="Business" />
+			<div>
+				<h2>India</h2>
+				<!-- <h3>Your Business is registered and you have a Business Bank Account</h3> -->
+			</div>
+		</div>
+		{#if showall == 0}
+			<div class="buttons">
+				<button on:click={prevCard} disabled>Back</button>
+				<button on:click={nextCard}>Next</button>
+			</div>
+		{/if}
+	</div>
+
 	<div class="card {showall == 1 || card == 1 ? '' : 'hide'}">
 		<h2>How would you like to accept payments with Euro Exim Bank?</h2>
 		<div class="radioButton">
@@ -44,7 +82,7 @@
 		</div>
 		{#if showall == 0}
 			<div class="buttons">
-				<button on:click={prevCard} disabled>Back</button>
+				<button on:click={prevCard}>Back</button>
 				<button on:click={nextCard}>Next</button>
 			</div>
 		{/if}
