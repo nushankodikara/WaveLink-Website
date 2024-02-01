@@ -27,7 +27,7 @@
 
 <form action="https://submit-form.com/gqyflXzr">
 	<div class="card {showall == 1 || card == 0 ? '' : 'hide'}">
-		<h2>Please Select Your Operating Country</h2>
+		<h2>Please Select Your Geographic Area of Operations</h2>
 		<div class="radioButton">
 			<input type="radio" name="Country" id="individal" value="US" />
 			<div>
