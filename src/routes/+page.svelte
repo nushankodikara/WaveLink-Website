@@ -124,9 +124,9 @@
 		<h2 class="text-5xl font-bold">Go Global With Wavelink</h2>
 		<p>
 			A comprehensive platform designed to meet the needs of today's cross-border seller. Pay from
-			any of the world's, into leading marketplaces, pay your suppliers and manage multiple stores
-			from a single location. Access working capital to reinvest in your business and withdraw
-			earnings in your home currency at low interest rates.
+			any of the popular global currencies, into leading marketplaces, pay your suppliers and manage
+			multiple stores from a single location. Access working capital to reinvest in your business
+			and withdraw earnings in your home currency at low interest rates.
 		</p>
 		<div class="flex flex-col md:flex-row gap-4">
 			<div
