@@ -63,7 +63,7 @@
       </p>
 
       <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-        Join us Today
+        <a href="/register">Join us Today</a>
       </button>
     </div>
   </div>

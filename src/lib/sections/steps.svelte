@@ -141,10 +141,10 @@
             </div>
             <div class="bg-white rounded-2xl p-8 shadow-lg">
               <h4 class="text-xl font-bold text-gray-900 mb-4">Step 2: Fill the Form</h4>
-              <p class="text-gray-600">Fill up the sign up form using your real details and mobile numbers which are in use</p>
-              <button class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+              <p class="text-gray-600 mb-6">Fill up the sign up form using your real details and mobile numbers which are in use</p>
+              <a href="/register" class=" bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
                 Create an Account
-              </button>
+              </a>
             </div>
           </div>
 

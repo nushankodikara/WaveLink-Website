@@ -143,6 +143,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>Wave-Link | Register</title>
+</svelte:head>
+
 <div class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20 px-4">
   <!-- Background Elements -->
   <div class="absolute inset-0 overflow-hidden pointer-events-none">

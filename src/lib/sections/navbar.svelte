@@ -45,7 +45,7 @@
     <div class="flex items-center justify-between h-20">
       <!-- Logo -->
       <a href="/" class="flex items-center">
-        <img src="/logo.svg" alt="Wavelink" class="h-8" />
+        <img src="/logo.png" alt="Wavelink" class="h-16" />
       </a>
 
       <!-- Desktop Menu -->
@@ -96,9 +96,9 @@
         >
           Contact
         </a>
-        <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-colors">
+        <a href="/register" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-colors">
           Register
-        </button>
+        </a>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -145,9 +145,9 @@
         >
           Contact
         </a>
-        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-colors">
+        <a href="/register" class="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-colors">
           Register
-        </button>
+        </a>
       </div>
     </div>
   </div>

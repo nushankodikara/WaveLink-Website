@@ -146,10 +146,10 @@
     </div>
 
     <div class="text-center mt-16">
-      <p class="text-gray-600 mb-6">Ready to get started with Wavelink?</p>
-      <button class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+      <p class="text-gray-600 mb-12">Ready to get started with Wavelink?</p>
+      <a href="/register" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
         Create an Account
-      </button>
+      </a>
     </div>
   </div>
 </section>
